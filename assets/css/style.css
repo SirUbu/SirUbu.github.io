@@ -1,3 +1,11 @@
+header, h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .name {
     font-style: italic;
+}
+.aboutme {
+}
+.floatl {
+    float: left;
 }
