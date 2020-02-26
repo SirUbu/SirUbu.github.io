@@ -1,11 +1,43 @@
-header, h1 {
+header {
+    height: 8%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+h1 {
+    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .name {
     font-style: italic;
 }
-.aboutme {
-}
+
 .floatl {
     float: left;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    font-size: x-small;
 }
