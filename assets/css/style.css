@@ -2,11 +2,21 @@ header {
     height: 8%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
     color: #ffffff;
 }
 
-h1 {
+h1{
+    padding: 20px;
+    background-color: #4aaaa5;
+    width: fit-content;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -41,4 +51,10 @@ footer {
     background-color: #666666;
     text-align: center;
     font-size: x-small;
+}
+
+.fontfam1 {
+    font-family: 'Trade Winds' ;
+    font-size: xx-large;
+    letter-spacing: 20px;
 }
