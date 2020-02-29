@@ -31,6 +31,25 @@ header {
     color: #777777;
 }
 
+#name {
+    width: 900px;
+}
+
+#email {
+    width: 900px;
+}
+
+#message {
+    width: 900px;
+    height: 400px;
+}
+
+#submitB {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px
+}
+
 #portfolio {
     padding-left: 20px;
     text-decoration: none;
