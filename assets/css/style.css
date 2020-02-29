@@ -3,12 +3,18 @@ body {
 }
 
 header {
-    height: 8%;
+    height: 40px;
     background-color: #ffffff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    border-bottom: 1px #cccccc solid;
+    border-bottom: 3px #cccccc solid;
+}
+
+.logo {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -25,23 +31,32 @@ nav {
 .section1 {
     background-color: #ffffff;
     border: 3px solid #dddddd;
-    width: 960px;
-    margin-top: 20px;
-    padding: 20px;
+    width: 937px;
+    margin-top: 40px;
+    padding: 20px 20px 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: solid #cccccc 3px;
-    padding: 0px 0px 20px 0px;
-    font-size: larger;
+    padding: 10px 0px 20px 0px;
+    font-size: xx-large;
     font-weight: bold;
 }
 
 .main {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px 5px 20px 5px;
+    font-size: larger;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+img {
+    padding: 0px 20px 20px 0px;
 }
 
 .floatl {
@@ -64,7 +79,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 5%;
+    padding: 40px 0px 0px 0px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
