@@ -3,12 +3,12 @@ body {
 }
 
 header {
-    height: 40px;
+    height: 63px;
     background-color: #ffffff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    border-bottom: 3px #cccccc solid;
+    border-bottom: 3px #cccccc ridge;
 }
 
 .logo {
@@ -17,25 +17,51 @@ header {
     margin-right: auto;
 }
 
+#about {
+    padding-right: 20px; 
+    text-decoration: none;
+    color: #777777;
+}
+
+#contact {
+    border-left: lightgray 1px ridge;
+    border-right: lightgray 1px ridge;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+#portfolio {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
 h1{
     padding: 20px;
     background-color: #4aaaa5;
     width: fit-content;
     float: left;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 nav {
     float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .section1 {
     background-color: #ffffff;
-    border: 3px solid #dddddd;
-    width: 937px;
+    border: 3px ridge #dddddd;
+    width: 914px;
     margin-top: 40px;
     padding: 20px 20px 40px 20px;
     margin-left: auto;
     margin-right: auto;
+    color: #777777;
 }
 
 h2 {
@@ -66,6 +92,8 @@ img {
 
 .name {
     font-style: italic;
+    text-decoration: none;
+    color: black;
 }
 
 .clearfix {
