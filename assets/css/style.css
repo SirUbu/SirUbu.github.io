@@ -100,6 +100,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     color: #777777;
+    overflow: auto;
 }
 
 h2 {
@@ -126,7 +127,6 @@ h2 {
 }
 
 .clearfix {
-    overflow: auto;
     content: "";
     clear: both;
     display: block;
