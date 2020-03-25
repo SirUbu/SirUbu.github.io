@@ -3,13 +3,13 @@ body {
 }
 
 header {
-    overflow: auto;
     width: 100%;
-    background-color: #ffffff;
+    overflow: auto;
+    background-color: #666666;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    border-bottom: 3px #cccccc ridge;
+    border-bottom: 8px royalblue ridge;
 }
 
 .logo {
@@ -133,37 +133,11 @@ h2 {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    padding: 40px 0px 0px 0px;
     color: #ffffff;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px ridge royalblue;
     background-color: #666666;
     text-align: center;
     font-size: small;
-}
-
-.signature {
-    color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-@media only screen and (max-width: 980px) {
-    .logo {
-       width: 700px;
-    }
-    .section1 {
-        width: 700px;
-    }
-    #name {
-        width: 685px;
-    }
-    #email {
-        width: 685px;
-    }
-    #message {
-        width: 685px;
-    }
 }
