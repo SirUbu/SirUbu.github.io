@@ -217,7 +217,7 @@ main {
 }
 
 .contact a {
-    padding: 10px 10px;
+    padding: 10px;
     border-left: 2px solid var(--primary-color);
     border-right: 2px solid var(--primary-color);
     border-radius: 15px;
@@ -225,7 +225,6 @@ main {
 
 .contact a:hover {
     background: var(--primary-color);
-    border-radius: 15px;
     transition: 0.5s;
 }
 
@@ -279,7 +278,7 @@ footer div {
     
     .grid-layout {
         grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: repeat(4, 100px);
     }
 
     .snapshot {
