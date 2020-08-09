@@ -3,59 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Sir Ubu Portfolio</title>
+    <link rel="icon" href="./assets/images/SirUbuImage.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
-
 <body>
-    <header class="header sticky-top">    
-        <div class="container">
-            <div class="row">
-                <h1 class="name col-lg-4 text-center pb-1">Colby Schroeder</h1>
-                <div class="col-lg-4"></div>            
-                <nav class="col-lg-4 text-right navbar"> 
-                    <a id="about" href="index.html">About</a>
-                    <a id="contact" href="contact.html">Contact</a>
-                    <a id="portfolio" href="portfolio.html">Portfolio</a>           
-                </nav> 
-            </div>
-        </div>
+    <header>
+        <h1>
+            <a href="./index.html">Colby Schroeder</a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a target="_blank" href="./assets/resume/CSchroeder-Resume.pdf">Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="container mt-5">
-        <div class="row">
-            <h2 class="col-lg-12">About Me</h2>
-            <img class="image col-lg-3" src="assets/images/Self Picture.jpg" alt="Self Picture">                
-            <div class="col-lg-9">
+    <!-- hero/jumbotron -->
+    <section class="hero">
+        <h2>
+            Live today, learning from the past, and striving for the Future... but, LIVE today.
+        </h2>
+    </section>
+    
+    <main>
+        <!-- about me section -->
+        <section class="container" id="about-me">
+            <h2 class="container-title">
+                About </br>Me
+            </h2>
+            <div class="container-content">
+                <div class="about-picture"></div>
                 <p>
-                    Everyone always starts by saying "My name is:" and listing their name. Obviously, my name is Colby! I also go by Sir Ubu. I am a fun loving, energetic individual! I love talking to people and being a part of a crowd. I'm also defined as a
-                    <a class="name" href="https://www.kellerinstitute.com/content/effective-leadership-means-being-maverick">"Maverick Leader"</a>
-                    meaning I like to challenge the status norm and find intuitive ways to solve problems and create solutions. 
-                </p>
-                <br>
-                <p>I am a Gamer at heart. Gaming has been my number one hobby and interest since I was young. I started playing
-                    <a class="name" href="https://starcraft.com/en-us/">StarCraft</a>
-                    when I was less than 10 years old. Now, I play on every system known and all different types of games. The games I enjoy the most have been crafting survival games like 
-                    <a class="name" href="https://store.steampowered.com/app/648800/Raft/">Raft</a>.
+                    One of the greatest challenges of today’s workforce is finding an environment that feels more like a community and creates mutual dedication, trust, and commitment. Our world has changed dramatically not only over the last generation, but even more over the last few months. I honestly believe we are being challenged to be the greatest versions of ourselves with the capacity to aid others as we wish to be helped. 
+                    <br/><br/>
+                    I seek a career path where I can apply not only the skills I’ve gained in my study of full-stack web development, but also my experience in fields such as retail, leadership, and finance. I hope to apply my desire to help others attain greater things personally and professionally and build things that enhance the experience and value of every day life.
                 </p>
             </div>
-            <div class="col-lg-12">
-                <br>
-                <p>
-                    These types of games have hinted over the years to my skills and passion for being able to create and build things while using my problem solving skills to overcome obstacles. This is why I am learning coding and becoming a developer! Nothing is more enjoyable to me than being able to build and create the next technologies of our world. So that's a bit about me, please reach out to me to get to know me better!
-                </p>
-                <br>
+        </section>
+
+        <!-- projects section -->
+        <section class="container" id="projects">
+            <h2 class="container-title">
+                Projects
+            </h2>
+            <div class="grid-container">
+                <div class="grid-layout">
+                    <a href="https://sirubu.github.io/run-buddy/" target="_blank" class="project-1 project-image">
+                        <img src="./assets/images/run-buddy.PNG" alt="Run Buddy Application" class="snapshot" />
+                        <div class="description">
+                            <h3>Run Buddy</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="./assets/images/coming-soon.png"  target="_blank" class="project-2 project-image">
+                        <img src="./assets/images/coming-soon.png" alt="Coming Soon" class="snapshot" />
+                        <div class="description">
+                            <h3>Project Name</h3>
+                            <p>Language/s</p>
+                        </div>
+                    </a>
+                    <a href="./assets/images/coming-soon.png"  target="_blank" class="project-3 project-image">
+                        <img src="./assets/images/coming-soon.png" alt="Coming Soon" class="snapshot" />
+                        <div class="description">
+                            <h3>Project Name</h3>
+                            <p>Language/s</p>
+                        </div>
+                    </a>
+                    <a href="./assets/images/coming-soon.png"  target="_blank" class="project-4 project-image">
+                        <img src="./assets/images/coming-soon.png" alt="Coming Soon" class="snapshot" />
+                        <div class="description">
+                            <h3>Project Name</h3>
+                            <p>Language/s</p>
+                        </div>
+                    </a>
+                    <a href="./assets/images/coming-soon.png"  target="_blank" class="project-5 project-image">
+                        <img src="./assets/images/coming-soon.png" alt="Coming Soon" class="snapshot" />
+                        <div class="description">
+                            <h3>Project Name</h3>
+                            <p>Language/s</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>  
-    </section>  
+        </section>
 
-    <div class="clearfix"></div>
+        <!-- contact me section -->
+        <section class="container" id="contact-me">
+            <h2 class="container-title">
+                Contact </br>Me
+            </h2>
+            <div class="container-content contact">
+                <a href="tel:4352242184">435.224.2184</a>
+                <a href="mailto:thesirubu@gmail.com">TheSirUbu@gmail.com</a>
+                <a href="https://github.com/SirUbu">GitHub</a>
+                <a href="https://www.linkedin.com/in/colby-schroeder-72017410a/">LinkdIn</a>
+                <a href="https://twitter.com/sir_ubu">Twitter</a>
+            </div>
+        </section>
+    </main>
 
-    <footer class="footer fixed-bottom pt-4">
+    <footer>
         <div>&copy;Sir Ubu <bdo dir="rtl">&copy;Sir Ubu</bdo></div>
     </footer>
-
 </body>
 </html>
