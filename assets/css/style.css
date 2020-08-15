@@ -163,7 +163,7 @@ main {
     grid-auto-flow: dense;
 }
 
-.project-3 {
+.project-4 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
