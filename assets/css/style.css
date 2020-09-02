@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #5d917d;
-    --secondary-color: #36362b;
-    --tertiary-color: #e5d3a8;
-    --quaternary-color: #825534;
+    --primary-color: #7584ad;
+    --secondary-color: #314570;
+    --tertiary-color: #aed1d6;
+    --quaternary-color: #a37f6f;
     --font-primary: Georgia, 'Times New Roman', Times, serif;
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -34,7 +34,6 @@ header {
 }
 
 header h1 {
-    color: var(--secondary-color);
     background: var(--primary-color);
     font-size: 40px;
     padding: 5px 50px;
@@ -158,14 +157,24 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(3, 175px);
+    grid-template-rows: repeat(4, 170px);
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
 
-.project-6 {
+.project-8 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+}
+
+.project-7 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.project-6 {
+    grid-column: 3;
+    grid-row: 2;
 }
 
 .project-image {
@@ -278,7 +287,17 @@ footer div {
     
     .grid-layout {
         grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(4, 100px);
+        grid-template-rows: repeat(6, 170px);
+    }
+    
+    .project-7 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .project-6 {
+        grid-column: 2;
+        grid-row: 3;
     }
 
     .snapshot {
