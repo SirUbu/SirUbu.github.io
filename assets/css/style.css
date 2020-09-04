@@ -162,17 +162,17 @@ main {
     grid-auto-flow: dense;
 }
 
-.project-8 {
+.project-9 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
-.project-7 {
+.project-8 {
     grid-column: 3;
     grid-row: 1;
 }
 
-.project-6 {
+.project-7 {
     grid-column: 3;
     grid-row: 2;
 }
@@ -290,12 +290,12 @@ footer div {
         grid-template-rows: repeat(6, 170px);
     }
     
-    .project-7 {
+    .project-8 {
         grid-column: 1;
         grid-row: 3;
     }
 
-    .project-6 {
+    .project-7 {
         grid-column: 2;
         grid-row: 3;
     }
