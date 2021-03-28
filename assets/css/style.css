@@ -154,7 +154,6 @@ main {
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(3, 170px);
     grid-gap: 10px;
-    grid-auto-flow: dense;
 }
 
 .project-4 {
@@ -252,16 +251,40 @@ footer div {
 }
 
 /* media queries */
-/* @media screen and (max-width: 1200px) {
-    .container-title {
-        flex: 1;
+@media screen and (max-width: 1200px) {
+    header a {
+        background-color: var(--primary-color);
     }
-} */
 
-/*
-@media screen and (max-width: 1028px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    
+    .container-title {
+        display: flex;
+        flex: 1;
+        border-right: none;
+        border-bottom: solid black 4px;
+        border-radius: 15px;
+        justify-content: center;
+    }
+
+    .contact {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .contact a {
+        background-color: var(--primary-color);
+    }
+
+    .snapshot {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     header  {
-        padding-bottom: 0;
         position: relative;
         justify-content: center;
     }
@@ -270,50 +293,20 @@ footer div {
         width: 100%;
         text-align: center;
     }
-    
-    .grid-layout {
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(7, 170px);
-    }
-    
-    .project-9 {
-        grid-column: 1;
-        grid-row: 3;
-    }
 
-    .project-8 {
-        grid-column: 2;
-        grid-row: 3;
-    }
-
-    .snapshot {
-        opacity: 1;
+    header nav {
+        padding-top: 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        padding: 0 15px;
-    }
-    .container {
-        display: inline;
-    }
-
-    .container-title {
-        width: 100%;
-        text-align: center;
-        border-right: none;
-        border-bottom: solid black 4px;
-        margin: 20px 0;
-        padding: 0;
-        padding-bottom: 10px;
-    }
-
-    .contact {
-        margin-bottom: 20px;
+    .grid-layout {
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(3, 170px);
     }
 }
 
+/*
 @media screen and (max-width: 575px) {
     header nav ul {
         justify-content: space-around;
