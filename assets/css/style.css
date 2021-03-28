@@ -92,18 +92,19 @@ header nav a:hover {
 
 /* main section styling */
 main {
+    width: 100%;
     background-image: url(../images/background2.png);
 }
 
 .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 20px 0;
     display: flex;
 }
 
 .container-title {
-    width: 25%;
+    width: 250px;
     font-size: 48px;
     font-weight: bold;
     font-family: var(--font-primary);
@@ -111,19 +112,10 @@ main {
     border-radius: 15px;
     text-align: right;
     padding-right: 20px;
-    margin-right: 10px;
-}
-
-.container-content {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .container-content p {
-    width: 70%;
-    margin-left: 10px;
+    padding: 20px 10px;
     font-size: 18px;
     line-height: 1.5;
     font-family: var(--font-secondary);
@@ -136,41 +128,46 @@ main {
     height: 300px;
     width: 230px;
     border-radius: 5px;
+    float: left;
+    margin: 20px 10px 0 10px;
 }
 
 .about-picture:hover {
     margin: 30px 0;
     background-image: url(../images/SirUbuImage.png) ;
-    background-size: contain;
+    background-size: cover;
     height: 230px;
+    border-radius: 5px;
+    margin: 20px 10px 70px 10px;
+    transition: ease-out 1s;
 }
 
 /* projects styling*/
 .grid-container {
-    width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px 10px;
 }
+
 .grid-layout {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(5, 170px);
+    grid-template-rows: repeat(3, 170px);
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
 
-.project-10 {
+.project-4 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
-.project-9 {
+.project-3 {
     grid-column: 3;
     grid-row: 1;
 }
 
-.project-8 {
+.project-2 {
     grid-column: 3;
     grid-row: 2;
 }
@@ -188,7 +185,7 @@ main {
     height: 100%;
     width: 100%;
     opacity: 0.4;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .snapshot:hover {
@@ -218,7 +215,10 @@ main {
 
 /* contact me styling */
 .contact {
-    align-content: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-family: var(--font-secondary);
     font-weight: 18px;
 }
@@ -232,7 +232,7 @@ main {
 
 .contact a:hover {
     background: var(--primary-color);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 
@@ -252,25 +252,13 @@ footer div {
 }
 
 /* media queries */
-@media screen and (max-width: 1292px) {
-    .container-content {
-        display: inline;
+/* @media screen and (max-width: 1200px) {
+    .container-title {
+        flex: 1;
     }
+} */
 
-    .container-content p {
-        width: 100%;
-    }
-
-    .about-picture {
-        float: left;
-        margin-right: 15px;
-    }
-
-    .contact {
-        display: flex;
-    }
-}
-
+/*
 @media screen and (max-width: 1028px) {
     header  {
         padding-bottom: 0;
@@ -334,4 +322,4 @@ footer div {
     header nav ul li a {
         margin-top: 10px;
     }
-}
+} */
