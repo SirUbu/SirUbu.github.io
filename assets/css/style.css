@@ -301,8 +301,6 @@ footer div {
 
 @media screen and (max-width: 768px) {
     .grid-layout {
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(3, 170px);
     }
 }
 
