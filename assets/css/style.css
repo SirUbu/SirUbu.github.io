@@ -156,17 +156,17 @@ main {
     grid-gap: 10px;
 }
 
-.project-4 {
+.project-5 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
-.project-3 {
+.project-4 {
     grid-column: 3;
     grid-row: 1;
 }
 
-.project-2 {
+.project-3 {
     grid-column: 3;
     grid-row: 2;
 }
@@ -309,12 +309,12 @@ footer div {
         grid-template-rows: repeat(3, 170px);
     }
     
-    .project-3 {
+    .project-4 {
         grid-column: 1;
         grid-row: 3;
     }
     
-    .project-2 {
+    .project-3 {
         grid-column: 2;
         grid-row: 3;
     }
