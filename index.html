@@ -5,107 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sir Ubu Portfolio</title>
     <link rel="icon" href="./assets/images/SirUbuImage.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <header>
+    <header class="bg-secondary text-center d-flex justify-content-between p-3">
         <h1>
             <a href="./index.html">Colby Schroeder</a>
         </h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact-me">Contact Me</a>
-            <a target="_blank" href="./assets/resume/CSchroeder-Resume.pdf">Resume</a>
+        <nav class="navbar align-right">
+            <a href="#about-me" class="p-2">About Me</a>
+            <a href="#projects" class="p-2">Projects</a>
+            <a href="#contact-me" class="p-2">Contact Me</a>
+            <a target="_blank" href="./assets/resume/CSchroeder-Resume.pdf" class="p-2">Resume</a>
         </nav>
     </header>
 
     <!-- hero/jumbotron -->
-    <section class="hero">
-        <h2>
+    <section class="jumbotron p-5">
+        <h2 class="text-light ms-5 quote">
             Live today, learning from the past, and striving for the Future... but, LIVE today.
         </h2>
     </section>
     
-    <main>
+    <main class="container">
         <!-- about me section -->
-        <section class="container" id="about-me">
-            <h3 class="container-title">
+        <section class="row py-3" id="about-me">
+            <h3 class="col-2">
                 About Me
             </h3>
-            <div class="container-content">
-                <div class="about-picture"></div>
-                <p>
-                    One of the greatest challenges of today’s world is finding an environment that feels more like a community and creates mutual dedication, trust, and commitment. Our world has changed dramatically not only over the last few generations, but even more over the last year. I honestly believe we are being challenged to be the greatest versions of ourselves with the capacity to aid others as we wish to be helped. 
-                    <br/><br/>
-                    I seek to apply not only the skills I’ve gained in my study of full-stack web development, but also my experience in fields such as retail, business management, finance, and leadership. I desire to help others attain greater things personally and professionally and to build things that enhance the experience and value of every day life.
-                    <br/><br/>
-                    One of my greatest strengths is my desire to learn and apply all I can from all different sources. I seek to disrupt complacency and build on my skills. Everyone has something to teach you, it is your responsibility to learn what you can from those around you and to teach what you know to the world.
-                </p>
-            </div>
-        </section>
-
-        <!-- projects section -->
-        <section class="container" id="projects">
-            <h3 class="container-title">
-                Projects
-            </h3>
-            <div class="grid-container">
-                <div class="grid-layout">
-                    <a href="https://sirubu.github.io/run-buddy/" target="_blank" class="project-1 project-image">
-                        <img src="./assets/images/run-buddy.PNG" alt="Run Buddy Application" class="snapshot" />
-                        <div class="description">
-                            <h4>Run Buddy</h4>
-                            <p>HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://sirubu.github.io/code-refactor-exercise/"  target="_blank" class="project-2 project-image">
-                        <img src="./assets/images/code-refactor.png" alt="Code Refactor Exercise" class="snapshot" />
-                        <div class="description">
-                            <h4>Code Refactor</h4>
-                            <p>HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://sirubu.github.io/robot-gladiators/"  target="_blank" class="project-3 project-image">
-                        <img src="./assets/images/robot-gladiators.PNG" alt="Robot Gladiators Application" class="snapshot" />
-                        <div class="description">
-                            <h4>Robot Gladiators</h4>
-                            <p>JavaScript</p>
-                        </div>
-                    </a>
-                    <a href="https://sirubu.github.io/javascript-password-generator/"  target="_blank" class="project-4 project-image">
-                        <img src="./assets/images/password-generator.PNG" alt="Password Generator Application" class="snapshot" />
-                        <div class="description">
-                            <h4>Password Generator</h4>
-                            <p>JavaScript/HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://sirubu.github.io/code-quiz/"  target="_blank" class="project-5 project-image">
-                        <img src="./assets/images/coding-quiz.PNG" alt="Coding Quiz" class="snapshot" />
-                        <div class="description">
-                            <h4>Coding Quiz</h4>
-                            <p>JavaScript/HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://sirubu.github.io/"  target="_blank" class="project-6 project-image">
-                        <img src="./assets/images/coming-soon.png" alt="Coming Soon" class="snapshot" />
-                        <div class="description">
-                            <h4>Coming Soon</h4>
-                            <p>Language</p>
-                        </div>
-                    </a>
-                        </div>
-                    </a>
+            <div class="col-10">
+                <div class="row">
+                    <img src="./assets/images/self-picture.jpg" alt="Colby wearing his glasses" class="img-thumbnail col-4">
+                    <p class="col-8">
+                        One of the greatest challenges of today’s world is finding an environment that feels more like a community and creates mutual dedication, trust, and commitment. Our world has changed dramatically not only over the last few generations, but even more over the last year. I honestly believe we are being challenged to be the greatest versions of ourselves with the capacity to aid others as we wish to be helped. 
+                        <br/><br/>
+                        I seek to apply not only the skills I’ve gained in my study of full-stack web development, but also my experience in fields such as retail, business management, finance, and leadership. I desire to help others attain greater things personally and professionally and to build things that enhance the experience and value of every day life.
+                        <br/><br/>
+                        One of my greatest strengths is my desire to learn and apply all I can from all different sources. I seek to disrupt complacency and build on my skills. Everyone has something to teach you, it is your responsibility to learn what you can from those around you and to teach what you know to the world.
+                    </p>
                 </div>
             </div>
         </section>
 
+        <!-- projects section -->
+        <section class="row py-3" id="projects">
+            <h3 class="col-2">
+                Projects
+            </h3>
+            <div class="col-10">
+
+            </div>
+        </section>
+
         <!-- contact me section -->
-        <section class="container" id="contact-me">
-            <h3 class="container-title">
+        <section class="row py-3" id="contact-me">
+            <h3 class="col-2">
                 Contact Me
             </h3>
-            <div class="container-content contact">
+            <div class="col-10 d-flex justify-content-around">
                 <a href="mailto:thesirubu@gmail.com">TheSirUbu@gmail.com</a>
                 <a href="https://github.com/SirUbu" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/colby-schroeder-72017410a/" target="_blank">LinkdIn</a>
@@ -114,7 +73,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="fixed-bottom text-center p-3 bg-primary">
         <div>&copy;Sir Ubu <bdo dir="rtl">&copy;Sir Ubu</bdo></div>
     </footer>
 </body>
