@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: rgb(249,249,249);
+    --brown: rgb(51,51,51);
+    --red: rgb(255,65,65);
+    --blue: rgb(7,74,106);
+    --navy: rgb(4,39,56);
+}
+
 body {
     min-height: 100vh;
     background-image: url(../images/background2.png);
@@ -5,9 +18,64 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+header {
+    background-color: var(--navy);
+    color: var(--white);
+    border-bottom: var(--red) 5px groove;
+}
+
+header h1 {
+    background-color: var(--brown);
+    border-radius: 0 25px 25px 0;
+}
+
+nav a {
+    border-bottom: var(--brown) 3px solid;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: var(--brown);
+    transition: 1s;
 }
 
 .jumbotron {
     background-image: url(../images/background.png);
+    border-bottom: var(--red) 5px groove;
+    margin: 0;
+}
+
+section h2 {
+    background-color: var(--brown);
+    border-radius: 35px 0 0 35px;
+}
+
+section h3 {
+    border-right: var(--red) 5px solid;
+    border-radius: 15px;
+}
+
+section div a {
+    border-bottom: var(--brown) 3px solid;
+    border-radius: 10px;
+    margin: auto;
+}
+
+section div a:hover {
+    background-color: var(--brown);
+    transition: 1s;
+    color: var(--white);
+}
+
+footer {
+    border-top: var(--red) 5px groove;
+    background-color: var(--brown);
+    color: var(--white);
 }
