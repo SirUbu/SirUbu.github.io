@@ -151,22 +151,22 @@ main {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, 170px);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(9, 180px);
     grid-gap: 10px;
 }
 
-.project-6 {
+.project-24 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
-.project-5 {
+.project-23 {
     grid-column: 3;
     grid-row: 1;
 }
 
-.project-4 {
+.project-22 {
     grid-column: 3;
     grid-row: 2;
 }
@@ -297,29 +297,48 @@ footer div {
     header nav {
         padding-top: 20px;
     }
-}
-
-@media screen and (max-width: 575px) {
-    header nav {
-        flex-wrap: wrap;
-    }
     
     .grid-layout {
         grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, 170px);
+        grid-template-rows: repeat(14, 170px);
     }
     
-    .project-5 {
+    .project-23 {
         grid-column: 1;
         grid-row: 3;
     }
     
-    .project-4 {
+    .project-22 {
         grid-column: 2;
         grid-row: 3;
     }
 
     .contact {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+
+    .grid-layout {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(25, 170px);
+    }
+    
+    .project-24 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 2;
+    }
+    .project-23 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .project-22 {
+        grid-column: 1;
+        grid-row: 4;
     }
 }
